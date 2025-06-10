@@ -2,7 +2,7 @@
 package json
 
 import (
-	"github.com/stainless-sdks/knirvchain-transaction-sdk-go/internal/encoding/json/shims"
+	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/internal/encoding/json/shims"
 	"reflect"
 	"time"
 )

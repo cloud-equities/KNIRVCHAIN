@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"net/http/httputil"
 
-	"github.com/stainless-sdks/knirvchain-transaction-sdk-go/internal/apijson"
-	"github.com/stainless-sdks/knirvchain-transaction-sdk-go/packages/respjson"
+	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/internal/apijson"
+	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/packages/respjson"
 )
 
 // Error represents an error that originates from the API, i.e. when a request is

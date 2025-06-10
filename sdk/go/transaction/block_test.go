@@ -8,9 +8,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/stainless-sdks/knirvchain-transaction-sdk-go"
-	"github.com/stainless-sdks/knirvchain-transaction-sdk-go/internal/testutil"
-	"github.com/stainless-sdks/knirvchain-transaction-sdk-go/option"
+	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction"
+	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/internal/testutil"
+	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/option"
 )
 
 func TestBlockSubmitWithOptionalParams(t *testing.T) {

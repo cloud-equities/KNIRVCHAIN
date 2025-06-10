@@ -3,7 +3,7 @@ package param
 import (
 	"encoding/json"
 	"fmt"
-	shimjson "github.com/stainless-sdks/knirvchain-transaction-sdk-go/internal/encoding/json"
+	shimjson "github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/internal/encoding/json"
 	"time"
 )
 

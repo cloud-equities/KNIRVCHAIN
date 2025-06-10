@@ -3,8 +3,8 @@ package apijson_test
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/stainless-sdks/knirvchain-transaction-sdk-go/internal/apijson"
-	"github.com/stainless-sdks/knirvchain-transaction-sdk-go/packages/param"
+	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/internal/apijson"
+	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/packages/param"
 	"reflect"
 	"testing"
 )

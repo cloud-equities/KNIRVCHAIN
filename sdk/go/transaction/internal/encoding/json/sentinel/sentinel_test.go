@@ -1,7 +1,7 @@
 package sentinel_test
 
 import (
-	"github.com/stainless-sdks/knirvchain-transaction-sdk-go/internal/encoding/json/sentinel"
+	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/internal/encoding/json/sentinel"
 	"reflect"
 	"slices"
 	"testing"

@@ -1,7 +1,7 @@
 package knirvchaintransactionsdk
 
 import (
-	"github.com/stainless-sdks/knirvchain-transaction-sdk-go/packages/param"
+	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/packages/param"
 	"io"
 	"time"
 )

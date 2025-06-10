@@ -18,10 +18,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/stainless-sdks/knirvchain-transaction-sdk-go/internal"
-	"github.com/stainless-sdks/knirvchain-transaction-sdk-go/internal/apierror"
-	"github.com/stainless-sdks/knirvchain-transaction-sdk-go/internal/apiform"
-	"github.com/stainless-sdks/knirvchain-transaction-sdk-go/internal/apiquery"
+	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/internal"
+	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/internal/apierror"
+	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/internal/apiform"
+	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/internal/apiquery"
 )
 
 func getDefaultHeaders() map[string]string {

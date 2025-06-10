@@ -1,7 +1,7 @@
 package apijson
 
 import (
-	"github.com/stainless-sdks/knirvchain-transaction-sdk-go/packages/respjson"
+	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/packages/respjson"
 	"reflect"
 )
 

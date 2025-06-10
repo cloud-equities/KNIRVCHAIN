@@ -6,11 +6,11 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/stainless-sdks/knirvchain-transaction-sdk-go/internal/apijson"
-	"github.com/stainless-sdks/knirvchain-transaction-sdk-go/internal/requestconfig"
-	"github.com/stainless-sdks/knirvchain-transaction-sdk-go/option"
-	"github.com/stainless-sdks/knirvchain-transaction-sdk-go/packages/param"
-	"github.com/stainless-sdks/knirvchain-transaction-sdk-go/packages/respjson"
+	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/internal/apijson"
+	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/internal/requestconfig"
+	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/option"
+	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/packages/param"
+	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/packages/respjson"
 )
 
 // UriGeneratorService contains methods and other services that help with
