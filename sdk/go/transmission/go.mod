@@ -1,4 +1,4 @@
-module go_client
+module github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transmission
 
 go 1.23.8
 

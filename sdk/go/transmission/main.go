@@ -7,8 +7,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	
-	parser "go_client/go/parser"
+	parser "github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transmission/parser"
 )
 
 func main() {

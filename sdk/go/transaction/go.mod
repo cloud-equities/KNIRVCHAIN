@@ -1,4 +1,4 @@
-module github.com/stainless-sdks/knirvchain-transaction-sdk-go
+module github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction
 
 go 1.21
 

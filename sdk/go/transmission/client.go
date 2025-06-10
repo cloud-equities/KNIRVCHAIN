@@ -1,7 +1,5 @@
 package main
 
-
-
 import (
 	"bytes"
 	"context"
@@ -15,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	parser "go_client/go/parser"
+	parser "github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transmission/parser"
 
 	"github.com/ipfs/go-cid"
 	"github.com/libp2p/go-libp2p"
