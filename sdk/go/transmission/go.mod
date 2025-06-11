@@ -1,4 +1,4 @@
-module github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transmission
+module github.com/cloud-equities/KNIRVCHAIN/sdk/go/transmission
 
 go 1.23.8
 
