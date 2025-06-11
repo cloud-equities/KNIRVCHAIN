@@ -6,8 +6,8 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/internal/requestconfig"
-	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/option"
+	"github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction/internal/requestconfig"
+	"github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction/option"
 )
 
 // TxnPoolService contains methods and other services that help with interacting

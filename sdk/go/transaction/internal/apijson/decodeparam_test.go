@@ -3,10 +3,11 @@ package apijson_test
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/internal/apijson"
-	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/packages/param"
 	"reflect"
 	"testing"
+
+	"github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction/internal/apijson"
+	"github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction/packages/param"
 )
 
 func TestOptionalDecoders(t *testing.T) {

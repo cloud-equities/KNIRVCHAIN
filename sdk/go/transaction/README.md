@@ -1,6 +1,6 @@
 # Knirvchain Transaction SDK Go API Library
 
-<a href="https://pkg.go.dev/github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction"><img src="https://pkg.go.dev/badge/github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction.svg" alt="Go Reference"></a>
+<a href="https://pkg.go.dev/github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction"><img src="https://pkg.go.dev/badge/github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction.svg" alt="Go Reference"></a>
 
 The Knirvchain Transaction SDK Go library provides convenient access to the [Knirvchain Transaction SDK REST API](https://github.com/cloud-equities/KNIRVCHAIN/tree/main/docs)
 from applications written in Go.
@@ -262,7 +262,7 @@ client.Chain.Get(context.TODO(), ...,
 )
 ```
 
-See the [full list of request options](https://pkg.go.dev/github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/option).
+See the [full list of request options](https://pkg.go.dev/github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction/option).
 
 ### Pagination
 
@@ -459,7 +459,7 @@ This package generally follows [SemVer](https://semver.org/spec/v2.0.0.html) con
 
 We take backwards-compatibility seriously and work hard to ensure you can rely on a smooth upgrade experience.
 
-We are keen for your feedback; please open an [issue](https://www.github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/issues) with questions, bugs, or suggestions.
+We are keen for your feedback; please open an [issue](https://www.github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction/issues) with questions, bugs, or suggestions.
 
 ## Contributing
 

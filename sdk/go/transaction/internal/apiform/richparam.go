@@ -1,9 +1,10 @@
 package apiform
 
 import (
-	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/packages/param"
 	"mime/multipart"
 	"reflect"
+
+	"github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction/packages/param"
 )
 
 func (e *encoder) newRichFieldTypeEncoder(t reflect.Type) encoderFunc {

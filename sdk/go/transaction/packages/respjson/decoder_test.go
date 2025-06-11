@@ -3,10 +3,11 @@ package respjson_test
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/internal/apijson"
-	rj "github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/packages/respjson"
 	"reflect"
 	"testing"
+
+	"github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction/internal/apijson"
+	rj "github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction/packages/respjson"
 )
 
 type UnionOfStringIntOrObject struct {

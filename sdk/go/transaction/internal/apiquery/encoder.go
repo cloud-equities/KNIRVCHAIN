@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/packages/param"
+	"github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction/packages/param"
 )
 
 var encoders sync.Map // map[reflect.Type]encoderFunc

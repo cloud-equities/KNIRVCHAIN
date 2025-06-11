@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"time"
 
-	shimjson "github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/internal/encoding/json"
+	shimjson "github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction/internal/encoding/json"
 
 	"github.com/tidwall/sjson"
 )

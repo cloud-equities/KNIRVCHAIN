@@ -1,9 +1,10 @@
 package sentinel
 
 import (
-	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/internal/encoding/json/shims"
 	"reflect"
 	"sync"
+
+	"github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction/internal/encoding/json/shims"
 )
 
 var nullPtrsCache sync.Map // map[reflect.Type]*T

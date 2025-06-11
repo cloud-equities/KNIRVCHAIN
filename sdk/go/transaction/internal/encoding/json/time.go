@@ -2,9 +2,10 @@
 package json
 
 import (
-	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/internal/encoding/json/shims"
 	"reflect"
 	"time"
+
+	"github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction/internal/encoding/json/shims"
 )
 
 type TimeMarshaler interface {

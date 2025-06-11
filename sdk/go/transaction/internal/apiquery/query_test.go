@@ -1,10 +1,11 @@
 package apiquery
 
 import (
-	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/packages/param"
 	"net/url"
 	"testing"
 	"time"
+
+	"github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction/packages/param"
 )
 
 func P[T any](v T) *T { return &v }

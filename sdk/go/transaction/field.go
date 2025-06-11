@@ -1,9 +1,10 @@
 package knirvchaintransactionsdk
 
 import (
-	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/packages/param"
 	"io"
 	"time"
+
+	"github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction/packages/param"
 )
 
 func String(s string) param.Opt[string]     { return param.NewOpt(s) }

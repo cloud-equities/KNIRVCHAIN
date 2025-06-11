@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/internal/requestconfig"
-	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/option"
+	"github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction/internal/requestconfig"
+	"github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction/option"
 )
 
 // Client creates a struct with services and top level methods that help with

@@ -1,8 +1,9 @@
 package apijson
 
 import (
-	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/packages/respjson"
 	"reflect"
+
+	"github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction/packages/respjson"
 )
 
 func getSubField(root reflect.Value, index []int, name string) reflect.Value {

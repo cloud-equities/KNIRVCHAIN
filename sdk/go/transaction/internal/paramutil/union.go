@@ -2,8 +2,9 @@ package paramutil
 
 import (
 	"fmt"
-	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/packages/param"
 	"reflect"
+
+	"github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction/packages/param"
 )
 
 var paramUnionType = reflect.TypeOf(param.APIUnion{})

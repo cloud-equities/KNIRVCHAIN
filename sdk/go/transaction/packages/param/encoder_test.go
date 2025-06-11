@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/packages/param"
+	"github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction/packages/param"
 )
 
 type Struct struct {

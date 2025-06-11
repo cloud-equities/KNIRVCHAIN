@@ -1,10 +1,11 @@
 package sentinel_test
 
 import (
-	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/internal/encoding/json/sentinel"
 	"reflect"
 	"slices"
 	"testing"
+
+	"github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction/internal/encoding/json/sentinel"
 )
 
 type Pair struct {

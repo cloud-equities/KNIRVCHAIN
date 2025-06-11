@@ -3,8 +3,9 @@ package param
 import (
 	"encoding/json"
 	"fmt"
-	shimjson "github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/internal/encoding/json"
 	"time"
+
+	shimjson "github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction/internal/encoding/json"
 )
 
 func NewOpt[T comparable](v T) Opt[T] {

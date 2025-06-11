@@ -13,7 +13,7 @@ import (
 	"sync"
 	"time"
 
-	parser "github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transmission/parser"
+	parser "github.com/cloud-equities/KNIRVCHAIN/sdk/go/transmission/parser"
 
 	"github.com/ipfs/go-cid"
 	"github.com/libp2p/go-libp2p"

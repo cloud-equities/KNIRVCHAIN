@@ -2,9 +2,10 @@ package apijson_test
 
 import (
 	"encoding/json"
-	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/internal/apijson"
-	"github.com/cloud-equities/KNIRVCHAIN/tree/main/sdk/go/transaction/packages/respjson"
 	"testing"
+
+	"github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction/internal/apijson"
+	"github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction/packages/respjson"
 )
 
 type StructWithNullExtraField struct {
