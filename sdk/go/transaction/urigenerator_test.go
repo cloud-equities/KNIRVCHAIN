@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-package knirvchaintransactionsdk_test
+package transaction_test
 
 import (
 	"context"
@@ -26,7 +26,7 @@ func TestUriGeneratorNewWithOptionalParams(t *testing.T) {
 		option.WithBaseURL(baseURL),
 		option.WithAPIKey("My API Key"),
 	)
-	_, err := client.UriGenerator.New(context.TODO(), knirvchaintransactionsdk.UriGeneratorNewParams{
+	_, err := client.UriGenerator.New(context.TODO(), knirvchaintransactionsdk.URIGeneratorNewParams{
 		ContentHash: knirvchaintransactionsdk.String("content_hash"),
 		Metadata: map[string]any{
 			"foo": "bar",

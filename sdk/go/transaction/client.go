@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-package knirvchaintransactionsdk
+package transaction
 
 import (
 	"context"
@@ -24,7 +24,7 @@ type Client struct {
 	Health       HealthService
 	Ping         PingService
 	Peers        PeerService
-	UriGenerator UriGeneratorService
+	UriGenerator URIGeneratorService
 	Mcp          McpService
 }
 
@@ -60,7 +60,7 @@ func NewClient(opts ...option.RequestOption) (r Client) {
 	r.Health = NewHealthService(opts...)
 	r.Ping = NewPingService(opts...)
 	r.Peers = NewPeerService(opts...)
-	r.UriGenerator = NewUriGeneratorService(opts...)
+	r.UriGenerator = NewURIGeneratorService(opts...)
 	r.Mcp = NewMcpService(opts...)
 
 	return

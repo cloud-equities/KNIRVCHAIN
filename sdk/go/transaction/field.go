@@ -1,4 +1,4 @@
-package knirvchaintransactionsdk
+package transaction
 
 import (
 	"io"

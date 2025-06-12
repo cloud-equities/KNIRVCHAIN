@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-package knirvchaintransactionsdk
+package transaction
 
 import (
 	"github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction/internal/apierror"

@@ -1,6 +1,6 @@
 // File generated from our OpenAPI spec by Stainless. See CONTRIBUTING.md for details.
 
-package knirvchaintransactionsdk
+package transaction
 
 import (
 	"context"
@@ -442,19 +442,6 @@ func (u CapabilityDescriptorUnionParam) MarshalJSON() ([]byte, error) {
 }
 func (u *CapabilityDescriptorUnionParam) UnmarshalJSON(data []byte) error {
 	return apijson.UnmarshalRoot(data, u)
-}
-
-func (u *CapabilityDescriptorUnionParam) asAny() any {
-	if !param.IsOmitted(u.OfCapabilityDescriptorResourceDescriptor) {
-		return u.OfCapabilityDescriptorResourceDescriptor
-	} else if !param.IsOmitted(u.OfCapabilityDescriptorToolDescriptor) {
-		return u.OfCapabilityDescriptorToolDescriptor
-	} else if !param.IsOmitted(u.OfCapabilityDescriptorPromptDescriptor) {
-		return u.OfCapabilityDescriptorPromptDescriptor
-	} else if !param.IsOmitted(u.OfCapabilityDescriptorMemoryServiceDescriptor) {
-		return u.OfCapabilityDescriptorMemoryServiceDescriptor
-	}
-	return nil
 }
 
 // Returns a pointer to the underlying variant's property, if present.

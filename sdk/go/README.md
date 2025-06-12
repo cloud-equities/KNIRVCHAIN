@@ -43,7 +43,7 @@ The Transmission SDK offers a high-level interface for interacting with the KNIR
 
 ```go
 import (
-    "github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction" // imported as knirvchaintransactionsdk
+    "github.com/cloud-equities/KNIRVCHAIN/sdk/go/transaction" // imported as transaction
 )
 ```
 
